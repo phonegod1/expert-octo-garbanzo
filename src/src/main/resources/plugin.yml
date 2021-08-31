@@ -1,0 +1,38 @@
+main: me.ac.Main
+name: AdvancedCasino
+version: 1.0
+author: D
+api-version: 1.16
+commands:
+   deposit:
+      description: Used to deposit.
+      usage: /deposit
+      permission: AdvancedCasino.deposit
+   casino:
+      description: Used to see admin casino commands.
+      usage: /casino help
+      permission: AdvancedCasino.help
+   withdraw:
+      description: Used to withdraw your in game currency.
+      usage: /withdraw <amount> <BTC address>
+      permission: AdvancedCasino.withdraw
+   bet:
+      description: Used to place your bets for the next roll.
+      usage: /bet
+      permission: AdvancedCasino.bet
+   howtodeposit:
+      description: Show a guide on how to deposit.
+      usage: /howtodeposit
+      permission: AdvancedCasino.howtodeposit
+   howtowithdraw:
+      description: Show a guide on how to withdraw.
+      usage: /howtowithdraw
+      permission: AdvancedCasino.howtowithdraw
+   howtobet:
+      description: Show a guide on how to bet.
+      usage: /howtobet
+      permission: AdvancedCasino.howtobet
+   top10:
+      description: Shows the top 10 bets.
+      usage: /top10
+      permission: AdvancedCasino.top10

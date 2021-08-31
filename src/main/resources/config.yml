@@ -1,0 +1,18 @@
+#Command Responses
+NoConsole: "You can only use this command as a player!"
+NoPermission: "&cYou do not have permission to use this command!"
+InvalidUsageCasino: "&cInvalid usage, use /casino help for more information."
+InvalidUsageDeposit: "&cInvalid usage, use /deposit"
+InvalidUsageWithdraw: "&cInvalid usage, use /withdraw <amount> <address>"
+InvalidUsageTooLittleMoney: "&cYou cannot withdraw more than 0.00009BTC"
+InvalidUsageWithdrawNoNum: "&cInvalid amount inputed."
+InvalidUsageWithdrawIns: "&cInsufficient funds."
+#MySQL database(used to store players balances)
+host: ""
+port: ""
+databasename: ""
+username: ""
+password: ""
+#Time for rolls
+rollduration: 7
+betsduration: 12
